@@ -14,3 +14,19 @@ I understand that it might look silly, but both of us spent hundreds, if not tho
 It is not a simple job and it is not a short job, both our licenses are extremely permissive, you can do whatever you want with the code provided in this repository, the only thing I'd like to ask you is that our job get recognized and that when you use this code for analysis, blog posts, or university thesis you show us your support by giving us credit for what we did.
 
 That's all. Thanks to all of you!
+
+# Changes in code in this fork
+/rootkit/main.c at **Line 69***
+</div>
+
+Old
+
+```c
+PCWSTR BannedDirecoty = L"{58763ECF-8AC3-4a5f-9430-1A310CE4BE0A}";
+```
+
+New
+
+```c
+PCWSTR BannedDirectory = L"{58763ECF-8AC3-4a5f-9430-1A310CE4BE0A}";
+```
