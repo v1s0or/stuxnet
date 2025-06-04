@@ -66,7 +66,7 @@ PCWSTR FileSystemsArray[3] = {
                       L"\\FileSystem\\cdfs",
                       };
 
-PCWSTR BannedDirecoty = L"{58763ECF-8AC3-4a5f-9430-1A310CE4BE0A}";
+PCWSTR BannedDirectory = L"{58763ECF-8AC3-4a5f-9430-1A310CE4BE0A}";
 PCWSTR DebugMSG = L"b:\\myrtus\\src\\objfre_w2k_x86\\i386\\guava.pdb";
 
 
